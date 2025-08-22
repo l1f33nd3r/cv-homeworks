@@ -1,0 +1,19 @@
+*.ipynb_*
+*.onnx
+*.dat
+*.mp4
+
+
+# Ignore everything
+*
+
+# But not these files
+!.gitignore
+
+
+# Keep all lesson folders
+!lesson*/
+
+# Make sure homework folders inside lessons are also kept
+!lesson*/homework/
+!lesson*/homework/**
